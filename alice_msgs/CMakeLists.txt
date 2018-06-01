@@ -22,6 +22,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   ForceTorque.msg
+  BalanceParam.msg
 )
 
 generate_messages(
