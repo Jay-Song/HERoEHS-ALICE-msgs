@@ -1,0 +1,16 @@
+string header
+uint16 version
+uint8 packet_number
+uint8 players_per_team
+uint8 competition_phase
+uint8 competition_type
+uint8 game_phase
+uint8 state
+uint8 set_play
+uint8 first_half
+uint8 kicking_team
+uint8 drop_in_team
+uint16 drop_in_time
+uint16 secs_remaining
+uint16 secondary_time
+alice_msgs/TeamInfo[] teams

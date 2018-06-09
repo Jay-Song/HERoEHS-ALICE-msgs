@@ -23,6 +23,13 @@ add_message_files(
   FILES
   ForceTorque.msg
   BalanceParam.msg
+  MoveCommand.msg
+  RobotInfo.msg
+  TeamInfo.msg
+  RoboCupGameControlData.msg
+  RoboCupGameControlReturnData.msg
+  FoundObject.msg
+  FoundObjectArray.msg
 )
 
 generate_messages(
